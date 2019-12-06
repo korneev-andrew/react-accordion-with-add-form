@@ -1,0 +1,13 @@
+html, body {
+  font: normal 24px Verdana, Arial, sans-serif;
+  font-weight: bold;
+  height: 100%;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,12 @@
+.CenteredMsg {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.CenteredMsg button {
+    background:none;
+    border:none;
+    cursor: pointer;
+}

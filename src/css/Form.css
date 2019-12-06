@@ -1,0 +1,31 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+
+.form-label {
+    padding: 0.8em 0.8em 0 0.8em;
+}
+
+.form-submit-area {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em;
+}
+
+.form-textarea {
+    resize: none;
+    flex-grow: 0.95;
+    padding: 1em;
+}
+
+.form-submit {
+    align-self: center;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    display: flex;
+    background: inherit;
+}

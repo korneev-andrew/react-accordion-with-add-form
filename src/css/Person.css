@@ -1,0 +1,33 @@
+.Person {
+    border: solid;
+    cursor: pointer;
+}
+
+.Person .topDescr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em;
+}
+
+.Person .botDescr {
+    font-weight: normal;
+    padding: 0 0.8em 0.8em 0.8em;
+}
+
+.botDescrSection {
+    display: flex;
+}
+
+.botDescrSection > div {
+    flex-basis: 25%;
+    padding-top: 0.6em;
+}
+
+.botDescrSection > div:nth-child(2) {
+    margin-right: 0.6em;
+}
+
+.botDescrSection > div:nth-child(4) {
+    margin-left: -0.6em;
+}

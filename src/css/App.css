@@ -1,0 +1,32 @@
+.App {
+    height: inherit;
+    display: inherit;
+    flex-direction: inherit;
+}
+
+main {
+    flex: 1;
+    width: 800px;
+    margin: auto;
+    border-right: solid;
+    border-left: solid;
+    box-sizing: border-box;
+    overflow: auto;
+    background: #bfbfbf;
+}
+
+main > div {
+    margin: 1em;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
